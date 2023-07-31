@@ -1,0 +1,67 @@
+[
+    {
+        "title": "AMAZON",
+        "skills": "Have good problem-solving skills\nAbility to work in a team\nExcellent communication skills\nStrong analytical skills\nProgramming skills",
+        "Pdf": "https://files.freshersnow.com/wp-content/uploads/2023/01/TCS-NQT-13th-September-2021-Slot-1-Question-Paper.pdf",
+        "intro": "Amazon is a multinational technology company known for its e-commerce, cloud computing, and digital streaming services. It offers a fast-paced and innovative work environment with opportunities to work on cutting-edge projects and products."
+    },
+    {
+        "title": "TCS",
+        "skills": "Good communication skills\nTechnical skills\nAnalytical skills\nProblem-solving skills\nAbility to work in a team",
+        "intro": "TCS (Tata Consultancy Services) is a global IT services and consulting company. It provides a wide range of services, including software development, infrastructure support, and business process outsourcing. TCS offers a diverse and inclusive workplace culture with ample opportunities for career growth."
+    },
+    {
+        "title": "IBM",
+        "skills": "Strong programming skills\nExcellent analytical ability\nKeen problem-solving ability\nGood communication skills",
+        "intro": "IBM (International Business Machines Corporation) is a leading technology company that offers a broad range of products and services, including hardware, software, and cloud solutions. It fosters a culture of innovation and encourages employees to solve complex business challenges using technology."
+    },
+    {
+        "title": "GOOGLE",
+        "skills": "Strong analytical and problem-solving skills\nGood communication and collaboration skills\nProgramming skills",
+        "intro": "Google is a multinational technology company specializing in Internet-related services and products. It is known for its search engine, online advertising technologies, and cloud computing services. Google provides a dynamic and stimulating work environment where creativity and innovation are valued."
+    },
+    {
+        "title": "ORACLE",
+        "skills": "Good problem-solving and analytical skills\nProgramming skills\nAbility to work in a team\nCommunication skills",
+        "intro": "Oracle Corporation is a global technology company that provides a comprehensive range of products and services, including databases, cloud solutions, and enterprise software. Oracle offers a challenging and rewarding work environment with opportunities for professional growth and development."
+    },
+    {
+        "title": "COGNIZANT",
+        "skills": "Good communication and interpersonal skills\nProblem-solving skills\nAnalytical skills\nTechnical skills",
+        "intro": "Cognizant is a multinational IT services and consulting company. It offers a wide array of services, including digital transformation, IT infrastructure, and business process outsourcing. Cognizant values collaboration and provides a supportive work environment to foster personal and professional growth."
+    },
+    {
+        "title": "WIPRO",
+        "skills": "Good problem-solving and analytical skills\nProgramming skills\nAbility to work in a team\nCommunication skills",
+        "intro": "Wipro Limited is a global IT consulting and outsourcing company. It offers services across various domains, including software development, infrastructure management, and business process services. Wipro provides a diverse and inclusive work culture that encourages learning and innovation."
+    },
+    {
+        "title": "DELOITTE",
+        "skills": "Good communication and interpersonal skills\nProblem-solving skills\nAnalytical skills\nAbility to work in a team",
+        "intro": "Deloitte is a multinational professional services network providing audit, consulting, and financial advisory services. It offers a wide range of career opportunities and emphasizes collaboration, innovation, and leadership development. Deloitte fosters a culture of excellence and provides challenging projects to its employees."
+    },
+    {
+        "title": "MICROSOFT",
+        "skills": "Strong programming skills\nGood problem-solving and analytical skills\nCommunication skills\nAbility to work in a team",
+        "intro": "Microsoft Corporation is a technology company known for its software products, including the Windows operating system and Office productivity suite. It fosters a culture of innovation and provides a supportive work environment with opportunities to work on groundbreaking projects and cutting-edge technologies."
+    },
+    {
+        "title": "MINDTREE",
+        "skills": "Good communication and interpersonal skills\nProblem-solving skills\nAnalytical skills\nTechnical skills\nAbility to work in a team",
+        "intro": "Mindtree Limited is a global technology consulting and services company. It specializes in digital transformation, enterprise application development, and data analytics. Mindtree encourages a collaborative and inclusive work environment where employees are empowered to innovate and deliver high-quality solutions."
+    },
+    {
+        "title": "INFOSYS",
+        "skills": "Strong programming skills\nGood communication and interpersonal skills\nAnalytical skills\nProblem-solving skills\nAbility to work in a team",
+        "intro": "Infosys is a multinational IT services and consulting company. It offers a wide range of services, including software development, maintenance, and independent validation. Infosys provides a dynamic work environment with a focus on continuous learning, innovation, and career advancement."
+    },
+    {
+        "title":"EY",
+        "skills":"Applicants must have strong communication\n facilitation\n relationship-building\npresentation and negotiation skills",
+        "intro":" EY is a global leader in assurance, tax, transaction, and advisory services, we’re using finance products, expertise, and systems. "
+    },
+    {
+        "title" : "CABOT",
+        "skills":  "Good communication\nGood problem-solving\nfacilitation\n interpersonal skills",
+        "intro":"As a leading global specialty chemicals and performance materials company, we are committed to advancing our customers’ businesses in the transportation,infrastructure, environment and consumer industries."}
+]

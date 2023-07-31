@@ -1,0 +1,288 @@
+/* Common Styles */
+
+.curved-rectangles-container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.fixed-taskbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.navbar {
+  background-color:#063118;
+  height: 110px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 20px;
+  font-size: 20px;
+  font-family: serif;
+  font-weight: bolder;
+  font-family: serif;
+  margin-right: 1000px;
+}
+
+.nav {
+  list-style: none;
+ width: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 300px;
+}
+
+.nav-item {
+  margin-right: 40px;
+  
+}
+
+.nav-link {
+  color: rgb(243, 243, 243);
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: serif;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+  background-color: rgb(250, 241, 241);
+  color: #333;
+}
+
+.curved-rectangle {
+  position: relative;
+  width: 350px;
+  height: 400px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgb(2, 0, 0);
+  text-align: center;
+}
+
+.curved-rectangle-1,
+.curved-rectangle-2,
+.curved-rectangle-3,
+.curved-rectangle-4 {
+  background-color: #FDFAF6;
+  width: 100%;
+  max-width: 1500px;
+  font-family: serif;
+  height: 500px;
+  margin-top: 150px;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+}
+
+.image {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 200px;
+  width: auto;
+}
+
+h1.sub {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 200px;
+  text-align: center;
+  font-family: serif;
+  padding: 20px;
+  margin-right: 500px;
+  margin-left: 500px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: serif;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  width: 100px;
+  height: 50px;
+  background-color:#063118;
+  color: #ffffff;
+  border: none;
+  border-radius: px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: serif;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+.buttons:hover {
+  background-color: #198536;
+}
+
+.p1,
+.p2,
+.p3,
+.p4 {
+  text-align: center;
+  margin-top: 30px;
+  font-family: serif;
+  font-size: 25px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container img {
+  height: 70px;
+  margin-right: 10px;
+  margin-right: 1300px;
+}
+
+body {
+  /* background: linear-gradient(#d8d7d9, #8c4646, #bf7b75), radial-gradient(circle at top right, rgb(221, 92, 66), rgb(255, 42, 0)); */
+  background-size: cover;
+  background-color: #E4EFE7;
+}
+
+/* Responsive Adjustments */
+
+@media (max-width: 1600px) {
+  .navbar {
+    width: 100%;
+    padding: 0 10px;
+    margin-right: 0;
+  }
+
+  .curved-rectangle,
+  .curved-rectangle-1,
+  .curved-rectangle-2,
+  .curved-rectangle-3,
+  .curved-rectangle-4 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .nav {
+    margin-left: 100px;
+  }
+
+  h1.sub {
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .navbar {
+    height: 100px;
+    font-size: 18px;
+  }
+
+  .nav-link {
+    font-size: 22px;
+    padding: 8px 12px;
+  }
+
+  .curved-rectangle {
+    width: 300px;
+    height: 350px;
+    margin: 15px;
+  }
+
+  h1.sub {
+    font-size: 26px;
+    margin-top: 150px;
+    margin-right: 400px;
+    margin-left: 400px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .views {
+    width: 60px;
+    height: 36px;
+    font-size: 14px;
+    margin-right: 150px;
+    margin-left: 150px;
+  }
+
+  .p1,
+  .p2,
+  .p3,
+  .p4 {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    height: 80px;
+    font-size: 16px;
+  }
+
+  .nav-link {
+    font-size: 18px;
+    padding: 6px 10px;
+    border-radius: 4px;
+  }
+
+  .curved-rectangle {
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    padding: 15px;
+  }
+
+  .curved-rectangle-1,
+  .curved-rectangle-2,
+  .curved-rectangle-3,
+  .curved-rectangle-4 {
+    margin-top: 100px;
+  }
+
+  h1.sub {
+    font-size: 22px;
+    margin-top: 100px;
+    margin-right: 300px;
+    margin-left: 300px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  button {
+    width: 50px;
+    height: 32px;
+    font-size: 12px;
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+
+  .p1,
+  .p2,
+  .p3,
+  .p4 {
+    margin-top: 15px;
+    font-size: 16px;
+  }
+}

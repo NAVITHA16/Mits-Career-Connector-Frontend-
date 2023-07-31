@@ -1,0 +1,140 @@
+/* CSS for SignUp component */
+
+.bodys{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color:#063118;
+  background-position: center;
+font-family: serif;
+  background-size:cover;
+  overflow: hidden;
+}
+
+h1 {
+  display: block;
+   margin-top: 20px;
+  font-size: 50px;
+  font-family: serif;
+ text-align: center;
+  font-weight: bold;
+  margin-left: 500px;
+  justify-content: center;
+}
+.hs {
+  font-size: 30px;
+  text-align: center;
+  font-family: serif;
+  color: rgb(252, 252, 252);
+  
+  
+}
+.header {
+  width: 2100px;
+  height: 200px;
+ font-size: 40px;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 20px;
+   
+}
+input::placeholder{
+  color: black; /* Set the desired color for the placeholder text */
+  font-size: 20px;
+  font-family: serif;
+}
+.names{
+  margin: 0;
+  margin: 0;
+  margin: 0;
+  font-size: 40px;
+  font-family: serif;
+  margin-top: 20px;
+  margin-right: 20px;
+  align-items: center;
+  color: white;
+  justify-content: center;
+  font-weight: bolder;
+}
+.one{
+  font-size: 16px;
+  font-weight: 500;
+  font-family: serif;
+  margin-bottom: 5px;
+  text-align: left;
+  font-weight: bolder;
+  
+}
+.form1{
+
+flex-direction: column;
+background-color:#FDFAF6;
+padding: 50px;
+color:rgb(0, 0, 0);
+
+border-radius:  5px;
+box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+font-size: 5px;
+font-weight:bolder;
+width: 550px;
+margin-bottom: 50px;
+font-family: serif;
+
+}
+
+.form1 label {
+  font-size: 23px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  text-align: left;
+  font-weight: bolder;
+  font-family: serif;
+  
+}
+
+.form1 input[type="text"],
+.form1 input[type="email"],
+.form1 input[type="password"],
+.form1 select {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-family: serif;
+  font-weight: 500;
+  outline: none;
+}
+
+.form1 select {
+  margin-bottom: 0px;
+}
+
+.S {
+  width: 100px;
+  height: 40px;
+  background-color:#05445E;
+  color: #ffffff;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  border-top: 1px;
+  font-family: serif;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: 200px;
+  margin-left: 210px;
+}
+
+button:hover {
+  background-color:#feffff;
+}

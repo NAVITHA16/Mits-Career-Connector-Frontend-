@@ -1,0 +1,94 @@
+.fixed-taskbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 10px;
+    z-index: 999;
+  }
+  
+  .navbars {
+    background-color:#063118;
+    height: 110px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: serif;
+    margin-right: 1000px;
+  }
+  
+  .navs {
+    list-style: none;
+    width: 100%;
+     padding: 0;
+     display: flex;
+     justify-content: flex-end;
+     margin-left: 300px;
+  }
+  
+  .nav-item {
+    margin-right: 40px;
+    
+  }
+  
+  .nav-link {
+    color: rgb(243, 243, 243);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: serif;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  
+  .nav-link:hover {
+    background-color: rgb(250, 241, 241);
+    color: #333;
+  }
+  
+  .Cheading {
+    font-size: 50px;
+    font-weight: bold;
+    font-family:serif;
+    margin-bottom: 20px;
+    margin-right: 600px;
+  }
+  
+  .Ccontainer2 {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #E4EFE7;
+    /* flex-wrap: wrap; */
+    margin-left: 650px;
+    margin-top: 200px;
+  }
+  
+  .Cbox {
+    padding: 20px;
+    background-color: #E4EFE7;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .fixed-taskbar{
+    background-color: #E4EFE7;
+    /* height: 100%; */
+  }
+  .Ctext {
+    font-size: 30px;
+    font-weight: bold;
+    font-family:serif;
+    height: 100px;
+    width:500px;
+    background-color: #a4dbb1;
+  }
+ .Ctext:hover{
+    background-color: #198536;
+ }

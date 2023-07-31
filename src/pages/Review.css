@@ -1,0 +1,141 @@
+.reviewformr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: serif;
+  background-color: #fcfcfcd8;
+  border-radius: 10px;
+  padding: 20px;
+  width: 1200px;
+  height: 1000px;
+  margin-top: 15px;
+  margin-left: 400px;
+  color: rgb(0, 0, 0);
+}
+
+.reviewr {
+  margin-top: 140px;
+  margin-bottom: 20px;
+  color: #000000;
+  font-size: 60px;
+  font-family: serif;
+  text-align: center;
+  margin-right: 550px;
+}
+
+.labelr {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  align-items: left; /* Align labels to the left */
+  margin-left: 180px;
+  padding: 10px;
+  font-family: serif;
+  font-weight: 500;
+}
+
+input[type="textr"],
+textarea {
+  background-color: #8d6e6e4e;
+  width: 80%;
+ 
+  height: 30px;
+  font-family: serif;
+  padding: 10px;
+  border: 1px solid #010101;
+  border-radius: 1px;
+ 
+  font-size: 20px;
+  border-color: #000000;
+ /* Adjust the margin as needed */
+  align-self: flex-start; /* Align textarea to the center */
+  margin-right: 1300px;
+  margin-left: 0px;
+}
+
+.success-message {
+  position: fixed;
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 20px;
+  font-family: serif;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 200px; /* Increase the height as needed */
+  width: 80%; /* Adjust the width as needed */
+ 
+  
+}
+
+.rb{
+  font-size: 27px;
+  color: white;
+  font-family: serif;
+  padding: 10px 20px;
+  background-color: #064420;
+}
+
+/* Media Queries for responsiveness */
+
+/* For screens up to 768px */
+@media (max-width: 768px) {
+  .reviewform {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .review {
+    font-size: 3rem;
+  }
+
+  .label {
+    font-size: 1.2rem;
+  }
+
+  input[type="text"],
+  textarea {
+    font-size: 1.2rem;
+  }
+
+  .rb {
+    font-size: 2.2rem;
+  }
+}
+
+/* For screens up to 576px */
+@media (max-width: 576px) {
+  .review {
+    font-size: 2.5rem;
+    margin-right: 0;
+  }
+
+  .label {
+    font-size: 1rem;
+    margin-left: 0;
+  }
+
+  input[type="text"],
+  textarea {
+    font-size: 1rem;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  textarea {
+    height: 150px;
+  }
+
+  .rb {
+    font-size: 1.8rem;
+  }
+}

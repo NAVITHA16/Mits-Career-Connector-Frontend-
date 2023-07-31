@@ -1,0 +1,77 @@
+.response-containerre {
+  padding: 20px;
+  background-color:#a4dbb1;
+  font-family: serif;
+  /* background-color:#064420; */
+  border-radius: 8px;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: serif;
+}
+
+.search-container {
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+
+.search-container label {
+  display: block;
+  margin-bottom: 10px;
+  font-family: serif;
+  font-weight: bold;
+  font-size:30px;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 8px;
+  font-family: serif;
+  font-size: 16px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+.response-box {
+  margin-bottom: 20px;
+  padding: 10px;
+  margin-right: 40px;;
+  margin-left: 40px;;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.response-header {
+  display: flex;
+  align-items: center;
+  font-family: serif;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: serif;
+}
+
+.company {
+  font-size: 16px;
+  margin-left: 1000px;
+  font-family: serif;
+}
+
+.description {
+  margin-bottom: 10px;
+  font-family: serif;
+}
+
+.date {
+  font-size: 14px;
+  color: #888;
+  font-family: serif;
+}
